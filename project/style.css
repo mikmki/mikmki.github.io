@@ -1,0 +1,483 @@
+
+  
+   /* font-family: 'Anton', sans-serif;
+    font-family: 'Istok Web', sans-serif;*/
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+        background-image: url(cats/cat-778315_1920.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        margin: 0;
+        font-family: 'Istok Web', sans-serif;
+    }
+    .logo {
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+
+    .nav {
+        width: 100%;
+        /*margin: auto;*/
+    }
+    .nav ul {
+        padding-left: 0;
+    }
+
+    .nav li {
+        display: block;
+        text-align: center;
+        height: 20px;
+        margin: 1px;
+        background-color: gray;
+
+    }
+    .nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+  
+    .left {
+    
+        margin: auto;
+    }
+    .right {
+    
+        margin: auto;
+    }
+    .topleft {
+        background-color: rgba(25, 25, 25, 0.72);
+        color: #f2f2f2;
+        padding: 0 5px;
+    }
+
+    .topleft p, .topleft h2 {
+        text-align: center;
+        padding: 5px 2%;
+    }
+    .topleft span {
+        visibility: hidden;
+        display: none;
+    }
+    
+    @keyframes girl {
+    0% {background-image: url(cats/girl.jpg);}
+    25% {background-image: url(cats/girl-2-small.jpg);}
+    75% {background-image: url(cats/girl-3-small.jpg);}
+    100% {background-image: url(cats/girl.jpg);}
+}
+    .topright {
+        width: 95%;
+        background-image: url(cats/girl.jpg);
+        margin: auto;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation-name: girl;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+
+    .right {
+        margin: auto;
+        text-align: center;
+    }
+    .right h3 {
+        color: #f2f2f2;
+    }
+
+    .box {
+        display: inline-block;
+        width: 45%;
+        text-align: center;
+    }
+    .box h4 {
+        font-size: 12px;
+        text-decoration: underline;
+        background-color: rgba(25, 25, 25, 0.72);
+        color: #f2f2f2;
+        
+    }
+    .box img {
+        width: 95%;
+    }
+    .hide {
+        visibility: hidden;
+        display: none;
+    }
+    footer {
+        background-color: rgba(25, 25, 25, 0.72);
+        padding: 10px 0;
+    }
+    foot {
+        margin: auto;
+        text-align: center;
+    }
+    .tel a {
+     text-decoration: none;
+     color: #f2f2f2;
+    }
+    .foot h3, .foot p {
+        color: white;
+        text-align: center;
+        line-height: 5px;
+    }
+    .fa {
+        padding: 5px;
+        font-size: 34px;
+        width: 24px;
+        margin: 2px;
+        border-radius: 50%;
+        text-align: center;
+        text-decoration: none;
+        background: #f2f2f2;
+        color: black;
+        text-align: center;
+    }
+    .fa-facebook {
+        margin-left: 22%;
+    }
+    .foot a {
+        text-align: center;
+    }
+    /* ---category -- Cats --*/
+    .raw {
+        margin: auto;
+    }
+   
+    .first {
+        display: inline-block;
+        width: 48%;
+        text-align: center;
+        /*margin: 0 5px*/;
+        /*padding-left: 5px;*/
+    }
+    .first img {
+        width: 100%;
+        border: 1px black solid;
+    }
+    .first a {
+        text-decoration: none;
+        color: #f2f2f2;
+        font-size: 10px;
+    
+    }
+    .first span {
+        background-color: rgba(25, 25, 25, 0.72);
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px white solid;
+    }
+    
+    /*--About us ---*/
+    .contact {
+        background-color: rgba(25, 25, 25, 0.72);
+        color: #f2f2f2;
+    }
+    .contact h2 {
+        text-align: center;
+    }
+    .contact p, .contact h3, .contact li {
+        padding: 5px 10px;
+    }
+    /*-----Cat full page----*/
+    .maincat img {
+        width: 100%;
+        border: 1px black solid;
+    }
+    .disc {
+        background-color: rgba(25, 25, 25, 0.72);
+        color: #f2f2f2;
+        padding: 5%;
+        margin-bottom: 5px;
+        border: 1px #f2f2f2 solid;
+    }
+    .disc h2 {
+        text-align: center;
+        
+    }
+    .disc li {
+        color: #f2f2f2;
+        list-style: square
+    }
+ 
+
+}
+
+
+/*-- full screen css---*/
+@media (min-width: 481px) {
+body {
+    background-image: url(cats/cat-778315_1920.jpg);
+    background-position: left;
+    background-attachment: fixed;
+    margin: 0px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+
+/*header*/
+header {
+    width: 100%;
+    min-width: 1080px;
+}
+/* logo*/
+.logo {
+    width: 100%;
+    text-align: center;
+}
+.logo img {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* nav */
+.nav {
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    text-align: center;
+}
+.nav li {
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 0px 15px;
+    
+}
+.nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 30px;
+}
+.nav a:hover {
+    color: darkgrey;
+}
+.shadow a {
+    color: darkgrey;
+}
+/*End of the header*/
+
+/*container*/
+.container {
+    width: 90%;
+    min-width: 1080px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+/*left */
+.left {
+    float: left;
+    width: 70%;
+    height: 700px;
+    margin: 10px;
+}
+
+.top {
+    width: 95%;
+    margin: auto;
+    height: 630px;
+    margin-bottom: 40px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+/*---main P---*/
+.topleft {
+    width: 30%;
+}
+    .topleft h2 {
+        text-align: center;
+        color: #f2f2f2;
+        margin-top: 0;
+        padding-top: 5px;
+    }
+
+.topleft p {
+    font-size: 18px;
+    color: #f2f2f2;
+}
+/*--main image---*/
+@keyframes girl {
+    0% {background-image: url(cats/girl-449769_960_720.jpg);}
+    25% {background-image: url(cats/girl-2.jpg);}
+    75% {background-image: url(cats/girl-3.jpg);}
+    100% {background-image: url(cats/girl-449769_960_720.jpg);}
+}
+.topright {
+    width: 480px;
+    height: 610px;
+    background-image: url(cats/girl-449769_960_720.jpg);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    animation-name: girl;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+    
+.down {
+    width: 95%;
+    margin-top: 70px;
+    height: 170px;
+    border: 1px black solid;
+}
+
+/* right small images scrolling down */
+.right {
+    float: left;
+    width: 25%;
+    height: 620px;
+    margin: 10px;
+    text-align: center;
+    overflow-y: scroll;
+}
+.right::-webkit-scrollbar { 
+    display: none; 
+}
+.right h3, h4 {
+    color: #f2f2f2;
+}
+
+.box {
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.box h4 {
+    margin: 5px;
+}
+.box img {
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+}
+
+/* footer */
+
+footer {
+    clear: both;
+    color: #f2f2f2;
+    text-align: center;
+    width: 100%;
+    min-width: 1080px;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.foot {
+    width: 30%;
+     
+}
+.tel a {
+     text-decoration: none;
+     color: #f2f2f2;
+    }
+    input {
+        border-radius: 5px;
+        margin-right: 0;
+    }
+
+/*social media*/
+.fa {
+    padding: 5px;
+    font-size: 34px;
+    width: 24px;
+    margin: 2px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    background: #f2f2f2;
+    color: black;
+}
+    
+/*---------------------------*/
+/* Category page*/
+.raw {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.first {
+    width: 20%;
+    /*height: 300px;*/
+
+}
+.first img {
+    width: 100%;
+    border: 1px black solid;
+}
+.first a {
+    text-decoration: none;
+    color: #f2f2f2;
+    
+}
+.first span {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px white solid;
+}
+.first span:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+/* Cats Full page */
+
+.maincat {
+    float: left;
+    width: 55%;
+    margin: 0 0 40px 20px;
+}
+.maincat img {
+    width: 100%;
+}
+.disc {
+    float: left;
+    width: 35%;
+    height: 450px;
+    background-color: rgba(25, 25, 25, 0.72);
+    text-align: left;
+    margin: 0 0 40px 20px;
+    padding: 15px;
+    border: 1px #f2f2f2 solid;
+}
+.disc h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #f2f2f2;
+}
+.disc p {
+    color: #f2f2f2;
+    line-height: 18px;
+}
+.disc li {
+    color: #f2f2f2;
+    list-style: square;
+}
+
+/*-------------------------------*/
+
+/* --- About Us ----*/
+.contact {
+    background-color: rgba(25, 25, 25, 0.72);
+    color: #f2f2f2;
+    padding: 10px 25px;
+    margin-bottom: 25px;
+}
+}
