@@ -475,9 +475,10 @@ footer {
 
 /* --- About Us ----*/
 .contact {
+    width: 80%;
     background-color: rgba(25, 25, 25, 0.72);
     color: #f2f2f2;
-    padding: 10px 25px;
-    margin-bottom: 25px;
+    padding: 10px 10px;
+    margin: 25px auto;
 }
 }
